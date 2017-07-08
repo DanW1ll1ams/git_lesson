@@ -1,0 +1,28 @@
+GIT
+
+init 								- create a local git repo
+status 								- what has changed since the last commit
+add FILENAME						- add file to staging area
+add FOLDERNAME						- add all files in a folder to staging area
+add --all							- add all new or modified files to staging area
+add *.txt							- add all txt files in current dir
+add "*.txt"							- add all txt files in the whole project
+commit -m "some message" 			- commit file to local repo
+commit -a -m "some message"			- add and commit changes from all tracked files
+commit --amend -m "some message"	- Add/Modify to last commit
+log									- shows a timeline of commits
+diff								- show unstaged differences since last commit
+diff --staaged						- view staged differences
+reset HEAD FILENAME					- to unstage a file
+checkout --FILENAME					- to discard changes in working dir
+reset --soft HEAD^					- Reset last commit into staging
+reset --hard HEAD^					- undo last commit and all changes (add another carrot to go 										  back another commit)
+push -u REPONAME BRANCHNAME				- push to remote repo (origin) from local branch (master)
+pull								- pull down files from remote repo
+remote add NAME ADDRESS				- add a new remote repo
+remote remove rm NAME				- remove remotes
+
+
+Notes
+> when writing commit messages use the present tense
+> HEAD refers to the last commit on the current branch
