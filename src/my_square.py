@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
-def my_sqaure(x):
+def my_sqaure(z):
 	#Takes a value and returns a squared value.
 	#Uses the ** operator
-	return(x ** 2)
+	return(z * z)
 
-print(my_sqaure(4))
+print(my_sqaure(24))
