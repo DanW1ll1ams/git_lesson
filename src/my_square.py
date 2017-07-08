@@ -6,6 +6,7 @@ def my_sqaure(y):
 	return(y ** 2)
 
 def my_sqaure2(x):
+	#uses the * opertor to calculate square
 	return(x * x)
 
 print(my_sqaure(42))
