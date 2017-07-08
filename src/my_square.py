@@ -5,4 +5,8 @@ def my_sqaure(y):
 	#Uses the ** operator
 	return(y ** 2)
 
+def my_sqaure2(x):
+	return(x * x)
+
 print(my_sqaure(42))
+print(my_sqaure2(42))
